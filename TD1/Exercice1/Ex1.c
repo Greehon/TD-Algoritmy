@@ -5,7 +5,6 @@
 long long int naiveFibonnaci (int n){
     if (n<=1){return n;}
     else{
-        return naiveFibbonnaci(n-1) + naiveFibbonnaci(n-2);
     }
 }
 
