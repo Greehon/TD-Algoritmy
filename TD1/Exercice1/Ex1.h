@@ -1,2 +1,2 @@
-long long int naiveFibonnaci (int n);
-long long int dynamiqueFibonnaci (int n, long long int DPFib[]);
+long long int naiveFibonacci (int n);
+long long int dynamiqueFibonacci (int n, long long int DPFib[]);
