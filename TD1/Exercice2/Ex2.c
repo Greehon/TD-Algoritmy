@@ -21,7 +21,6 @@ int EfficientPrimeNumber(int n){
     char PrimeNumber[n+1]; 
     // On initialise avec char pour pouvoir avoir un n plus grand que int ou short
     
-
     for (int i = 0; i < n + 1; i++) { //1 si Nombre premeir 0 sinon
         PrimeNumber[i]=1;}
     PrimeNumber[0] = 0;

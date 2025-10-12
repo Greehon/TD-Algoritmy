@@ -3,7 +3,7 @@
 #include "Ex1.h"
 
 void main() {
-    int n = 20;
+    int n = 30;
     clock_t start, end;
     double time;
 
@@ -12,10 +12,10 @@ void main() {
     long long int nF = naiveFibonacci(n);  
     end = clock();
     time = (double)(end - start) / CLOCKS_PER_SEC;
-    printf("NaiveFibonacci(%d) = %lli, Time : %f s\n", n, nF, time);
+    printf("NaiveFibonacci(%i) = %lli, Time : %f s\n", n, nF, time);
 
     //Test Dynamique
-    long long int DPFib[100];
+    long long int DPFib[n];
     for (int i = 0; i <= n; i++){
         DPFib[i] = -1;}
 
